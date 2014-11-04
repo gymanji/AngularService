@@ -9,12 +9,9 @@
 	<h1>Edit text in either input box below to see data shared between the 2 different controllers.</h1>
 	
 	<div ng-controller="FirstCtrl">
-		<row>
-			<h2>First Controller</h2>
-			<input type="text" ng-model="data.message" placeholder="type here...">
-			<h4>1st Ctrl input text: {{data.message}}</h4>
-		</row>
-			
+		<h2>First Controller</h2>
+		<input type="text" ng-model="data.message" placeholder="type here...">
+		<h4>1st Ctrl input text: {{data.message}}</h4>
 	</div>
 	<br>
 	<div ng-controller="SecondCtrl">
